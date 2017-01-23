@@ -1,0 +1,4 @@
+###  Bridges of the USA.  
+[I think this data is so interesting.](https://www.fhwa.dot.gov/bridge/nbi/ascii.cfm)  When you find some data, you should always look for the [data descriptions](https://www.fhwa.dot.gov/bridge/mtguide.pdf).  From page 38, we have the ratings of bridge conditions (for Deck, Superstructure, and Substructure), for *every bridge in the US*, for every year back to 1991.  Lots of other data on each bridge (e.g. county FIPS code of the bridge). 
+
+Warm up:  make a file with bridge ID, year, fips codes, condition ratings, and a few other variables that interest you.  Make your code reproducible and post to github.  
