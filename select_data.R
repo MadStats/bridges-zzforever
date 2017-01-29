@@ -1,0 +1,2 @@
+bridge_data <- read.csv("~/Downloads/fluna_992007-20160913085200.txt")
+selected_data <- data.frame(FIPS_code = bridge_data$STATE_CODE_001, ID = bridge_data$STRUCTURE_NUMBER_008, Year = bridge_data$YEAR_BUILT_027, Deck_Condition = bridge_data$DECK_COND_058, Superstructure_Condition = bridge_data$SUPERSTRUCTURE_COND_059, Substructure_Condition = bridge_data$SUBSTRUCTURE_COND_060, Channel_Condition = bridge_data$CHANNEL_COND_061, Culvert_Condition = bridge_data$CULVERT_COND_062)
